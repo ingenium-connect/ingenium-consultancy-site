@@ -2,7 +2,7 @@ import { Header } from "@/components/layout";
 import { Section, SectionHeader, Grid, Card } from "@/components/ui";
 import { Button } from "@/components/ui/Button";
 import Link from "next/link";
-import { Shield, Lightbulb, Users, Target, Clock, Award, CheckCircle, ArrowRight } from "lucide-react";
+import { Shield, Lightbulb, Users, Target, Clock, Award } from "lucide-react";
 
 const values = [
   {
@@ -75,13 +75,13 @@ export default function AboutPage() {
           />
           <div className="space-y-6 text-lg text-slate-600 leading-relaxed">
             <p>
-              What began as a boutique consulting practice has evolved into a trusted partner for organizations seeking to navigate today's complex business landscape. Our journey started with a simple mission: to remove barriers and make services accessible, inclusive, and easy to use for everyone.
+              What began as a boutique consulting practice has evolved into a trusted partner for organizations seeking to navigate today&apos;s complex business landscape. Our journey started with a simple mission: to remove barriers and make services accessible, inclusive, and easy to use for everyone.
             </p>
             <p>
-              Over the past 3 years, we've worked with companies of all sizes - from enterprises to fast-growing startups - helping them overcome challenges, seize opportunities, and build more inclusive systems. Our deep industry knowledge, combined with our commitment to accessibility and inclusion, has made us a preferred consulting partner for many organizations.
+              Over the past 3 years, we&apos;ve worked with companies of all sizes - from enterprises to fast-growing startups - helping them overcome challenges, seize opportunities, and build more inclusive systems. Our deep industry knowledge, combined with our commitment to accessibility and inclusion, has made us a preferred consulting partner for many organizations.
             </p>
             <p>
-              Today, we continue to push the boundaries of what's possible in business consulting, leveraging the latest technologies and methodologies to create solutions that work for everyone.
+              Today, we continue to push the boundaries of what&apos;s possible in business consulting, leveraging the latest technologies and methodologies to create solutions that work for everyone.
             </p>
           </div>
         </div>

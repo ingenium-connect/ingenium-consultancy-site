@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { Button } from "@/components/ui/Button";
 import { Menu, X, ArrowRight } from "lucide-react";
 import { useState, useEffect } from "react";
@@ -37,7 +38,7 @@ export default function Header() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 group">
             <div className="w-10 h-10 bg-gradient-to-br from-teal-600 to-blue-600 rounded-lg flex items-center justify-center overflow-hidden shadow-lg shadow-teal-600/20 group-hover:shadow-xl transition-all duration-300">
-              <img src="/logo.svg" alt="Ingenium" className="w-full h-full object-contain group-hover:scale-110 transition-transform duration-300" />
+              <Image src="/logo.svg" alt="Ingenium" className="w-full h-full object-contain group-hover:scale-110 transition-transform duration-300" width={40} height={40} />
             </div>
             <span className="text-2xl font-bold text-slate-900 tracking-tight">Ingenium</span>
           </Link>

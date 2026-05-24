@@ -1,17 +1,8 @@
 import { Header } from "@/components/layout";
-import { Section, SectionHeader, Grid, Card } from "@/components/ui";
+import { Section, SectionHeader, Card } from "@/components/ui";
 import { Button } from "@/components/ui/Button";
 import Link from "next/link";
-import { Target, Lightbulb, Users, Shield, CheckCircle, Clock, Award, Mail, Phone, MapPin, Send, ArrowRight } from "lucide-react";
-
-const formFields = [
-  { id: "name", label: "Full Name", type: "text", placeholder: "John Doe" },
-  { id: "email", label: "Email Address", type: "email", placeholder: "john@company.com" },
-  { id: "company", label: "Company Name", type: "text", placeholder: "Your Company Inc." },
-  { id: "phone", label: "Phone Number", type: "tel", placeholder: "+1 (555) 000-0000" },
-  { id: "service", label: "Service Needed", type: "select", options: ["Business Strategy", "Digital Transformation", "Data & Analytics", "Process Optimization", "Other"] },
-  { id: "message", label: "Message", type: "textarea", placeholder: "Tell us about your needs..." },
-];
+import { Mail, Phone, MapPin, Send, Shield } from "lucide-react";
 
 export default function ContactPage() {
   return (
@@ -132,7 +123,7 @@ export default function ContactPage() {
             <div className="space-y-8">
               <SectionHeader
                 title="Contact Information"
-                subtitle="Have questions? We're here to help. Reach out through any of these channels."
+                subtitle="Have questions? We&apos;re here to help. Reach out through any of these channels."
                 align="left"
               />
 
@@ -265,7 +256,7 @@ export default function ContactPage() {
             Ready to Start Your Transformation?
           </h2>
           <p className="text-slate-600 text-lg mb-8 max-w-2xl mx-auto">
-            Schedule your free initial consultation and let's discuss how we can help you achieve your goals.
+            Schedule your free initial consultation and let&apos;s discuss how we can help you achieve your goals.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
