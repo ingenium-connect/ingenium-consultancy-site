@@ -1,8 +1,8 @@
 import { Header } from "@/components/layout";
-import { Section, SectionHeader, Grid, Card } from "@/components/ui";
+import { Section, Grid, Card } from "@/components/ui";
 import { Button } from "@/components/ui/Button";
 import Link from "next/link";
-import { CheckCircle, Target, Lightbulb, Users, Shield, Clock, Award, BarChart, Code, Database, ArrowRight } from "lucide-react";
+import { ArrowRight, Clock } from "lucide-react";
 
 const blogPosts = [
   {
@@ -174,7 +174,7 @@ export default function InsightsPage() {
             Need Expert Guidance?
           </h2>
           <p className="text-xl text-slate-600 mb-8 max-w-2xl mx-auto">
-            Our consultants are ready to help you navigate your industry's challenges and opportunities.
+            Our consultants are ready to help you navigate your industry&apos;s challenges and opportunities.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">

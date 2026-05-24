@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Facebook, Twitter, Linkedin, Instagram, Mail, Phone, MapPin } from "lucide-react";
 
 const footerLinks = {
@@ -43,7 +44,7 @@ export default function Footer() {
           <div className="lg:col-span-2">
             <Link href="/" className="flex items-center gap-3 mb-6">
               <div className="w-10 h-10 bg-gradient-to-br from-teal-600 to-blue-600 rounded-lg flex items-center justify-center shadow-lg shadow-teal-600/30">
-                <img src="/logo.svg" alt="Ingenium" className="w-full h-full object-contain" />
+                <Image src="/logo.svg" alt="Ingenium" className="w-full h-full object-contain" width={40} height={40} />
               </div>
               <span className="text-2xl font-bold text-white tracking-tight">Ingenium</span>
             </Link>

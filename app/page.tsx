@@ -68,7 +68,7 @@ const differentiators = [
 const industries = [
   {
     name: "Financial Services",
-    description: "Banking, insurance, and fintech solutions for Africa's growing economies.",
+    description: "Banking, insurance, and fintech solutions for Africa&apos;s growing economies.",
     color: "bg-blue-600",
   },
   {
@@ -83,7 +83,7 @@ const industries = [
   },
   {
     name: "Telecom & Tech",
-    description: "Digital transformation for Africa's rapidly expanding technology sector.",
+    description: "Digital transformation for Africa&apos;s rapidly expanding technology sector.",
     color: "bg-indigo-600",
   },
 ];

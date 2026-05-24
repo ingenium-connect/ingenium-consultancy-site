@@ -2,7 +2,7 @@ import { Header } from "@/components/layout";
 import { Section, SectionHeader, Grid, Card } from "@/components/ui";
 import { Button } from "@/components/ui/Button";
 import Link from "next/link";
-import { BarChart, Code, Database, Target, Shield, Lightbulb, Users, Clock, CheckCircle, ArrowRight } from "lucide-react";
+import { BarChart, Code, Database, Target, CheckCircle, ArrowRight } from "lucide-react";
 
 const services = [
   {
@@ -97,7 +97,7 @@ export default function ServicesPage() {
                 <p className="text-slate-600 mb-6">{service.description}</p>
               </div>
               <div className="flex-grow">
-                <h3 className="font-semibold text-slate-900 mb-4">What's Included:</h3>
+                <h3 className="font-semibold text-slate-900 mb-4">What&apos;s Included:</h3>
                 <ul className="space-y-3">
                   {service.details.map((detail, dIdx) => (
                     <li key={dIdx} className="flex items-start gap-3 text-sm text-slate-600">
